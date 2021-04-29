@@ -16,4 +16,6 @@ function randomItem(list) {
   return list[Math.floor(list.length * Math.random())];
 }
 
+const randomStack = generateRandomCards(650);
+
 // Your Code Here
